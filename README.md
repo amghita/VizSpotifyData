@@ -1,6 +1,6 @@
 # Spotify Data Vizualization with Apache Airflow
 
-## About
+## Motivation
 
 Data Visualization is one of the essential aspects of Data Science. It can either be used for data exploration or communicate the result of the analysis. During data exploration, visualization can reveal hidden information in our data. 
 
@@ -27,6 +27,12 @@ Install the requirements on *requirements.txt* by entering the following command
  **enable_xcom_pickling** = True<br/>
 
 You can follow the quick start guid from apache airflow http://airflow.apache.org/docs/apache-airflow/stable/start.html
+
+3. Open two separate terminals and run :
+> airflow webserver 
+> airflow scheduler 
+
+4. Navigate to the default http://0.0.0.0:8080/admin/ local address to see the screen below:
 
 
 ## Visualisation and Dashboard
