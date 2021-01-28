@@ -19,9 +19,9 @@ This is a short tutorial to show how I combined Python and Airflow to create an 
 1. Activate your virtual environment , and run pip intsall apache-airflow 
 2. Call the airflow initdb command to initiate the SQLite database where Airflow will store the metadata that are necessary to manage your workflow.
 3. Open the config file located in the airflow directory (cd airflow /) with the nano command and make the following modifications : 
- **dags_folder** = path of the dags folder
- **load_examples** = False
- **enable_xcom_pickling** = True
+ **dags_folder** = path of the dags folder <br/>
+ **load_examples** = False <br/>
+ **enable_xcom_pickling** = True<br/>
 
 You can follow the quick start guid from apache airflow http://airflow.apache.org/docs/apache-airflow/stable/start.html
 
