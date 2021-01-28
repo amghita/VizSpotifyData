@@ -22,6 +22,7 @@ Install the requirements on *requirements.txt* by entering the following command
 1. Activate your virtual environment , and run 
 > pip intsall apache-airflow 
 2. Call the airflow initdb command to initiate the SQLite database where Airflow will store the metadata that are necessary to manage your workflow.
+> airflow db init
 3. Open the config file located in the airflow directory (cd airflow /) with the nano command and make the following modifications :<br/>
  **dags_folder** = path of the dags folder <br/>
  **load_examples** = False <br/>
@@ -42,9 +43,9 @@ You can follow the quick start guid from apache airflow http://airflow.apache.or
 ![](https://github.com/amghita/VizSpotifyData/blob/main/img/Spotify5.PNG)
 
 
-**get_data** : Download spotify data from *top10s.csv* 
-**data_preprocessing** : performs manipulation on spotify song data to generate top10s DF to be used in visualizations
-**visualize_data** : create visualizations using Plotly
+**get_data** : Download spotify data from *top10s.csv* <br/>
+**data_preprocessing** : performs manipulation on spotify song data to generate top10s DF to be used in visualizations<br/>
+**visualize_data** : create visualizations using Plotly <br/>
 
 
 ## Visualisation and Dashboard
