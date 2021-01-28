@@ -33,7 +33,7 @@ You can follow the quick start guid from apache airflow http://airflow.apache.or
 
 
 
-![GitHub Logo](/images/logo.png
+![GitHub Logo](/img/logo.png
 
 
 
