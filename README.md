@@ -38,7 +38,7 @@ You can follow the quick start guid from apache airflow http://airflow.apache.or
 
 5. Switch on the dag manually , Airflow Sequential Executor will immediatly run all the three tasks according to their hiearchy :
 
-![](https://github.com/amghita/VizSpotifyData/blob/main/img/spotify5.PNG)
+![](https://github.com/amghita/VizSpotifyData/blob/main/img/Spotify5.PNG)
 
 
 ## Visualisation and Dashboard
