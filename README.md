@@ -3,6 +3,7 @@
 ## Motivation
 
 Data Visualization is one of the essential aspects of Data Science. It can either be used for data exploration or communicate the result of the analysis. During data exploration, visualization can reveal hidden information in our data. 
+In effect, while I was building an app to visualize Spotify song Data with Plotly, I realized that every time I wanted data to be updated, I had to re-run the entire code manually. This process takes a very long time when you need to extract, manipulate and make available data for Spotify users.
 
 ### What is Airflow and how can it help ?
 Apache Airflow is a workflow management platform that allows users to programmatically schedule jobs that run on a standalone basis and to monitor them through its user interface. Airflow’s main components are a Webserver (Airflow’s UI build as a Flask App), a Scheduler, an Executor and a Metadata Database.
@@ -10,7 +11,7 @@ Apache Airflow is a workflow management platform that allows users to programmat
 
 This is a short tutorial to show how I combined Python and Airflow to create an automated Pipeline to visualize Spotify song Data. We have 2 main files :
 1. pipeline_spotify.py
-2. dashboard.py
+2. dashboard.py 
 
 ## Set up 
 Install the requirements on *requirements.txt* by entering the following command on the terminal
@@ -41,9 +42,14 @@ You can follow the quick start guid from apache airflow http://airflow.apache.or
 ![](https://github.com/amghita/VizSpotifyData/blob/main/img/Spotify5.PNG)
 
 
+**get_data** : Download spotify data from *top10s.csv* 
+**data_preprocessing** : performs manipulation on spotify song data to generate top10s DF to be used in visualizations
+**visualize_data** : create visualizations using Plotly
+
+
 ## Visualisation and Dashboard
 
-
+You can now visualize the Spotify song Data by running dashboard.py
 
 ![](https://github.com/amghita/VizSpotifyData/blob/main/img/spotify1.PNG)
 ![](https://github.com/amghita/VizSpotifyData/blob/main/img/Spotify2.PNG)
