@@ -14,7 +14,7 @@ This is a short tutorial to show how I combined Python and Airflow to create an 
 
 ## Set up 
 Install the requirements on *requirements.txt* by entering the following command on the terminal
-> pip install requirements.txt
+> pip  install -r requirements.txt
 
 ### Install and configure Airflow 
 
@@ -32,6 +32,8 @@ You can follow the quick start guid from apache airflow http://airflow.apache.or
 ## Visualisation and Dashboard
 
 
+
+![viz1](C:/Users/ghita/Desktop/spotify1.jpg )
 
 
 
