@@ -34,6 +34,8 @@ You can follow the quick start guid from apache airflow http://airflow.apache.or
 
 
 ![](https://github.com/amghita/VizSpotifyData/blob/main/img/spotify1.PNG)
+![](https://github.com/amghita/VizSpotifyData/blob/main/img/Spotify2.PNG)
+![](https://github.com/amghita/VizSpotifyData/blob/main/img/Spotify3.PNG)
 
 
 
