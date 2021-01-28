@@ -28,7 +28,7 @@ This is a short tutorial to show how I combined Python and Airflow to create an 
 
 ## Ressources 
 
-Airflow 
-Guide Spotify API
-Plotly 
-Flask 
+1. Airflow 
+2. Guide Spotify API
+3. Plotly 
+4. Flask 
