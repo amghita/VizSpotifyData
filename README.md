@@ -1,4 +1,4 @@
-# Spotify Data Vizualization with Apache Airflow
+# Spotify Data Visualization with Apache Airflow
 
 ## Motivation
 
