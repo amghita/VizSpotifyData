@@ -33,7 +33,7 @@ You can follow the quick start guid from apache airflow http://airflow.apache.or
 
 
 
-![viz1](C:/Users/ghita/Desktop/spotify1.jpg )
+![GitHub Logo](/images/logo.png
 
 
 
