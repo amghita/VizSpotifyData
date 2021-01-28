@@ -32,7 +32,13 @@ You can follow the quick start guid from apache airflow http://airflow.apache.or
 > airflow webserver 
 > airflow scheduler 
 
-4. Navigate to the default http://0.0.0.0:8080/admin/ local address to see the screen below:
+4. Navigate to the default http://localhost:8080/home local address to see the screen below:
+
+![](https://github.com/amghita/VizSpotifyData/blob/main/img/spotify4.PNG)
+
+5. Switch on the dag manually , Airflow Sequential Executor will immediatly run all the three tasks according to their hiearchy :
+
+![](https://github.com/amghita/VizSpotifyData/blob/main/img/spotify5.PNG)
 
 
 ## Visualisation and Dashboard
