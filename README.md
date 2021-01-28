@@ -11,3 +11,24 @@ This is a short tutorial to show how I combined Python and Airflow to create an 
 1. pipeline_spotify.py
 2. dashboard.py
 
+## Set up 
+
+### Install and configure Airflow 
+
+
+
+
+## Visualisation and Dashboard
+
+
+
+
+
+
+
+## Ressources 
+
+Airflow 
+Guide Spotify API
+Plotly 
+Flask 
