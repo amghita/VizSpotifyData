@@ -15,9 +15,11 @@ This is a short tutorial to show how I combined Python and Airflow to create an 
 
 ### Install and configure Airflow 
 
+1. Activate your virtual environment , and run pip intsall apache-airflow 
+2. Call the airflow initdb command to initiate the SQLite database where Airflow will store the metadata that are necessary to manage your workflow.
+3. 
 
-
-
+You can follow the quick start guid from apache airflow http://airflow.apache.org/docs/apache-airflow/stable/start.html
 ## Visualisation and Dashboard
 
 
