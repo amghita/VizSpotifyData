@@ -10,8 +10,8 @@ Apache Airflow is a workflow management platform that allows users to programmat
 
 
 This is a short tutorial to show how I combined Python and Airflow to create an automated Pipeline to visualize Spotify song Data. We have 2 main files :
-1. pipeline_spotify.py
-2. dashboard.py 
+1. pipeline_spotify.py : the DAG (Directed Acyclic Graph) file wich will be read by Airflow
+2. dashboard.py  : visualize the analysis results
 
 ## Set up 
 Install the requirements on *requirements.txt* by entering the following command on the terminal
@@ -49,7 +49,7 @@ You can follow the quick start guid from apache airflow http://airflow.apache.or
 
 ## Visualisation and Dashboard
 
-You can now visualize the Spotify song Data by running dashboard.py
+You can now visualize the Spotify song Data by running *dashboard.py*
 
 ![](https://github.com/amghita/VizSpotifyData/blob/main/img/spotify1.PNG)
 ![](https://github.com/amghita/VizSpotifyData/blob/main/img/Spotify2.PNG)
