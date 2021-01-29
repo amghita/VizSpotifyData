@@ -28,10 +28,12 @@ Install the requirements on *requirements.txt* by entering the following command
  **load_examples** = False <br/>
  **enable_xcom_pickling** = True<br/>
 
-You can follow the quick start guid from apache airflow http://airflow.apache.org/docs/apache-airflow/stable/start.html
+You can also follow the quick start guid from apache airflow http://airflow.apache.org/docs/apache-airflow/stable/start.html
 
 3. Open two separate terminals and run :
 > airflow webserver 
+
+
 > airflow scheduler 
 
 4. Navigate to the default http://localhost:8080/home local address to see the screen below:
